@@ -1,0 +1,34 @@
+.qr-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    text-align: center;
+    padding-top: 2rem;
+  }
+  
+  .qr-code {
+    width: 300px; /* Aumenta el tamaño del QR */
+    height: 300px; /* Establece el mismo tamaño para la altura */
+    margin-bottom: 20px; /* Espacio entre el QR y el botón */
+    border: 2px solid #000; /* Añadir borde negro */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px;
+    background-color: white; /* Fondo blanco para el QR */
+  }
+  
+  .generate-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff; /* Color azul */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .generate-btn:hover {
+    background-color: #0056b3; /* Color azul más oscuro en hover */
+  }
+  
